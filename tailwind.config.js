@@ -1,11 +1,14 @@
+const colors = require("tailwindcss/colors");
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      // backgroundImage: {
-      //   hero: "url('https://caribarang.oss-ap-southeast-1.aliyuncs.com/general/lp/Background%20seminar(1).jpg')",
-      // },
+      colors: {
+        emerald: colors.emerald,
+        yellow: colors.amber,
+        purple: colors.violet,
+      },
     },
   },
   variants: {
